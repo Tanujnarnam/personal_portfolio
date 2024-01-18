@@ -3,14 +3,13 @@ import {Link} from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo'
 import Loader from 'react-loaders';
 
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
-  const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.',]
+  const nameArray = ['','T', 'a', 'n', 'u', 'j','','N','a','r','n','a','m']
+  const jobArray = ['A','e','b',' ','d','e','v','e','l','o','p','e','r','.',]
 
   useEffect(() => {
     setTimeout(() => {
@@ -28,19 +27,15 @@ const Home = () => {
         <br/>
         <span className={`${letterClass} _13`}>I</span>
         <span className={`${letterClass} _14`}>'m</span>
-        <img src={LogoTitle} alt="developer"></img>
         <AnimatedLetters letterClass={letterClass}
         strArray={nameArray}
         idx={15}/>
         <br />
-        <AnimatedLetters letterClass={letterClass}
-        strArray={jobArray}
-        idx={22}/>
         </h1>
-        <h2>Frontend Developer / JavaScript Expert / Youtuber</h2>
-        <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+        <br />
+        <h2>Computer Science Student at Texas A&M University</h2>
+        <Link to="/about" className='flat-button'>ABOUT ME</Link>
       </div>
-      <Logo/>
     </div>
     <Loader type="pacman" />
     </>

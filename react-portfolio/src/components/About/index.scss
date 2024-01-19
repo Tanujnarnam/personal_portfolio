@@ -2,7 +2,7 @@
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 18%;
+  padding-top: 15%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -71,5 +71,24 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .stage-cube-cont{
+    padding-top: 30%;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .stage-cube-cont{
+    display: none;
+  }
+
+  .about-page{
+    .text-zone{
+      width: 75%;
+    }
   }
 }

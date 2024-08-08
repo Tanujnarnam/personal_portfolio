@@ -111,22 +111,21 @@
 
 
 @media screen and (max-width: 800px) {
-  
   .contact-page{
     .projects-zone{
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       .overlay{
         h1{
-          font-size: 2vw;
+          font-size: 3vw;
         }
 
         p{
-          font-size: 0.8vw;
-          top: 65%;
+          font-size: 1.5vw;
+          top: 72.5%;
         }
 
         a{
-          top: 80%;
+          top: 85%;
         }
       }
     }

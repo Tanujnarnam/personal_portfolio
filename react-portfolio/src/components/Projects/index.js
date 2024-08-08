@@ -28,18 +28,10 @@ const Contact = () => {
       </div>
       <div className='projects-zone'>
         <div className='project-div'>
-          <img src='./Weight_BodyHero.webp' alt="Bodybuilder"/>
-          <div className='overlay'>
-            <h1>Liftlog</h1>
-            <p>React, Node JS, PostgreSQL, Express</p>
-            <Link to="https://liftlogger.netlify.app/" target="_blank">GO</Link>
-          </div>
-        </div>
-        <div className='project-div'>
           <img src='./NBA.png' alt="Bucket Whiz"/>
           <div className='overlay'>
             <h1>Bucket Whiz</h1>
-            <p>React, Node JS, PostgreSQL, Express</p>
+            <p>React, Node JS, Python, PostgreSQL</p>
             <Link to="https://bucketwhiz.netlify.app/" target="_blank">GO</Link>
           </div>
         </div>

@@ -1,26 +1,39 @@
+.logo-text{
+  font-family: 'Coolvetica';
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+  left: 5%;
+  color: white;
+  font-weight: 500;
+}
+
+
 .nav-bar{
   background: #181818;
-  width: 60px;
-  height: 100%;
+  width: 100%;
+  height: 50px;
   position: absolute;
-  top: 0;
   z-index: 3;
-  min-height: 500px;
+  min-height: 65px;
 }
 
 nav{
-  display: block;
+  display: inline;
   text-align: center;
   position: absolute;
   height: 210px;
-  top: 50%;
-  margin-top: -120px;
-  width: 100%;
+  top: 15%;
+  left: 27.5%;
+  width: 80%;
 
   a{
      font-size: 22px;
      color: #4d4d42;
-     display: block;
+     display: inline;
+     padding: 0 8%;
      line-height: 51px;
      height: 51px;
      position: relative;
@@ -47,16 +60,15 @@ nav{
         font-size: 8px;
         letter-spacing: 2px;
         position: absolute;
-        bottom: 0;
+        top: -35%;
         display: block;
-        width: 100%;
-        text-align: center;
         opacity: 0;
         transition: all 0.3s ease-out;
       }
 
       &:first-child{
          &::after{
+          left: 40%;
           content: 'HOME';
         }
       }
@@ -64,12 +76,14 @@ nav{
 
     a.about-link{
       &:after{
+        left: 35%;
         content: 'ABOUT';
       }
     }
 
     a.contact-link{
       &:after{
+        left: 25%;
         content: 'PROJECTS';
       }
     }
@@ -83,8 +97,8 @@ nav{
 
     ul{
       position: absolute;
-      bottom: 20px;
-      width: 100%;
+      left: 95%;
+      top: 35%;
       display: block;
       padding: 0;
       list-style: none;
@@ -94,9 +108,8 @@ nav{
       li{
         a{
           padding: 7px 0;
-          display: block;
+          display: inline;
           font-size: 15px;
-          line-height: 16px;
 
           &:hover svg{
             color: #ffd700;

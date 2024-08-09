@@ -6,6 +6,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className='nav-bar'>
+    <h1 className='logo-text'>Tanuj</h1>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
@@ -25,7 +26,6 @@ const Sidebar = () => (
       </li>
     </ul>
   </div>
-
 )
 
 export default Sidebar

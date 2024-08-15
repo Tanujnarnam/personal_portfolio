@@ -16,16 +16,17 @@ const Contact = () => {
 
   return(
     <>
-    <div className='container contact-page'>
+    <div className='container projects-page'>
       <div className='text-zone'>
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's',]}
+            strArray={['P','r', 'o', 'j', 'e', 'c', 't', 's']}
             idx={15}
            />
         </h1>
       </div>
+      <br></br>
       <div className='projects-zone'>
         <div className='project-div'>
           <img src='./Weight_BodyHero.webp' alt="Bodybuilder"/>

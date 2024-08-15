@@ -1,9 +1,8 @@
-.contact-page{
+.projects-page{
   .text-zone{
     position: absolute;
     left: 20%;
-    top: 20%;
-    transform: translateY(-50%);
+    top: 30%;
     width: 50%;
     max-height: 90%;
   }
@@ -89,7 +88,7 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .contact-page{
+  .projects-page{
     .projects-zone{
       .overlay{
         h1{
@@ -112,7 +111,7 @@
 
 @media screen and (max-width: 800px) {
   
-  .contact-page{
+  .projects-page{
     .projects-zone{
       grid-template-columns: 1fr 1fr 1fr;
       .overlay{
@@ -134,7 +133,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .contact-page{
+  .projects-page{
     .projects-zone{
       .overlay{
         p{
@@ -145,5 +144,11 @@
         }
       }
     }
+  }
+}
+
+.text-animate-hover{
+  &:hover{
+    color:#ffd700;
   }
 }

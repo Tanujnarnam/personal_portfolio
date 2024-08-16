@@ -3,6 +3,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import ContactForm from "../Contact/ContactForm.js"
 
 
 const Contact = () => {
@@ -28,6 +29,7 @@ const Contact = () => {
         <br />
         </h1>
         <br />
+        <ContactForm/>
       </div>
     </div>
     <Loader type="pacman" />

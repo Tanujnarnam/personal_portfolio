@@ -26,7 +26,7 @@ nav{
   position: absolute;
   height: 210px;
   top: 15%;
-  left: 27.5%;
+  left: 20%;
   width: 80%;
 
   a{
@@ -81,10 +81,17 @@ nav{
       }
     }
 
-    a.contact-link{
+    a.projects-link{
       &:after{
         left: 25%;
         content: 'PROJECTS';
+      }
+    }
+
+    a.contact-link{
+      &:after{
+        left: 25%;
+        content: 'CONTACT';
       }
     }
 

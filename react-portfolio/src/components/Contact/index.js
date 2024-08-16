@@ -2,7 +2,6 @@ import Loader from "react-loaders"
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import ContactForm from "../Contact/ContactForm.js"
 
 

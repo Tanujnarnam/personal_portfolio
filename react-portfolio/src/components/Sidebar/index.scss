@@ -124,3 +124,38 @@ nav{
         }
       }
     }
+
+    @media only screen and (min-width: 500px) {
+      nav{
+        a{
+          &:first-child{
+            &::after{
+             left: 42.5%;
+             content: 'HOME';
+           }
+         }
+        }
+      
+
+        a.about-link{
+          &:after{
+            left: 42.5%;
+            content: 'ABOUT';
+          }
+        }
+    
+        a.projects-link{
+          &:after{
+            left: 37.5%;
+            content: 'PROJECTS';
+          }
+        }
+    
+        a.contact-link{
+          &:after{
+            left: 39%;
+            content: 'CONTACT';
+          }
+        }
+      }
+    }
